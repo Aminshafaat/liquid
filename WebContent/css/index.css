@@ -1,0 +1,246 @@
+body{
+	font-family:sans-serif,sanVerdana, Geneva;
+	font-size:14px;
+	overflow: hidden;
+	color:#555;
+}
+#top{ 
+	position:absolute;
+	top:0;
+	height:40px;
+	left:0;
+	right:0;
+	width:100%;
+	
+	color:white;
+	vertical-align:middle;
+	text-align:center;
+	
+}
+#message{
+	position:relative;
+	padding-top:5px;
+	top:5px;
+	width:400px;
+	height:20px;
+	display:inline-block;
+	vertical-align:middle;
+}
+#vertical{
+	z-index:1000;
+	position:absolute;
+	bottom:80px;
+	height:50px;
+	left:0;
+	width:100%;
+	background-color:#fofofo;
+	border-top:#CECECE 1px solid;
+	border-bottom:#CECECE 1px solid;
+}
+#newuser{
+	z-index:1500;
+	position:absolute;
+	font-size:16px;
+	font-weight:bold;
+	font-style:oblique;
+	top:210px;
+	right:100px;
+	color:#333;
+	cursor:pointer;
+}
+#powered{
+	position:absolute;
+	width:100%; 
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+	color:#CCC;
+	bottom:20px;
+}
+#middle{
+	position:relative;
+	top:90px;
+	width:920px;
+	height:450px;
+	margin:auto;
+}
+#top #link{
+	position:relative;
+	top:4px;
+	width:900px;
+	height:50px;
+	margin:auto;
+	text-align:right;
+}
+#siteName{
+	z-index:1002;
+/*	position:absolute;
+	top:90px;*/
+	display:inline;
+	position:relative;
+	font-size:100px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-variant:small-caps;
+	font-weight:bold;
+/*	color:#333;*/
+/*	color:#800040;*/
+	width:350px;
+	color:#CC6;
+}
+
+#description{
+	position:relative;
+	color:#666;
+	top:50px;
+	left:10px;
+	font-size:16px;
+}
+#description p{
+	margin-top:7px;
+}
+#info{
+	z-index:1050;
+	position:relative;
+	left:100px;
+	top:20px;
+	color:#999;
+}
+#menu{
+	position:relative;
+	top:-220px;
+	left:620px;
+	z-index:2000;
+}
+#menu span{
+	border-top-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	font-size:16px;
+	color:#999;
+
+	padding:7px;
+	padding-left:40px;
+	padding-right:40px;
+
+}
+#menu span.activeMenu{
+	border:1px #CCC solid;
+	border-bottom:2px #F8F8F8 solid;
+	background-color:#F8F8F8;
+	color:#00F;
+}
+#menu span:hover{
+	cursor:pointer;
+	color:#00F;
+}
+#signin{
+	position:relative;
+	top:-214px;
+	left:600px;
+	width:290px;
+	border:1px #CCC solid;
+	padding:15px;
+	background-color:#F8F8F8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+
+}
+#singin label{
+	 display: inline;
+}
+#signin p 
+{
+    margin: 2px 12px 10px 10px;
+}
+.failureNotification{
+	font-size:12px;
+	color:red;
+	display:none;
+}
+#signup
+{
+	display:none;
+	position:relative;
+    top:-214px;
+	left:600px;
+	width:290px;
+	border:1px #CCC solid;
+	padding:15px;
+	background-color:#F8F8F8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#signup p 
+{
+    margin: 2px 12px 10px 10px;
+}
+#signup.login label, #signup.register label, #signup.changePassword label
+{
+    display: block;
+}
+
+#signup label.inline 
+{
+    display: inline;
+}
+
+input[type=text],input[type=password],input[type=email]{
+	height:32px;
+	font-size:18px;
+/*	font-weight:bold;*/
+	padding:3px;
+	padding-left:8px;
+	color:#555;
+	margin-top:3px;
+    border: 1px solid #ccc;
+    width: 98%;
+}
+input[type=text]:hover,input[type=password]:hover,input[type=email]:hover{
+	border: 1px solid #666;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+input[type=button],input[type=submit]{
+	min-width:100px;
+	font-size:16px;
+	padding:4px 8px 4px 8px;
+	border: 1px solid #333;
+	background-color:#004080;
+	color:white;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+input[type=button]:hover,input[type=submit]:hover{
+	cursor:pointer;
+	color:#DDD;
+	border: 1px solid #000;
+	text-align:center;
+}
+.b{
+	font-weight:bold;
+	font-size:13px;
+}
+.message{
+	position:absolute;
+	right:0;
+	margin-right:18px;
+	color:red;
+	font-size:11px;
+	font-weight:bold;
+}
+.green{
+	color:#063;
+	border:1px green solid;
+	background-color:#6F9;
+}
+.red{
+	color:red;
+	border:1px red solid;
+	background-color:#FFD5D5;
+}
+.forgetpassword{
+	text-decoration:none;
+	color:#0066FF;
+	
+}
